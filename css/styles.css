@@ -12,7 +12,10 @@ body{
 .ig{
     color:orangered;
 }
-.espaciado{
+.espaciadoArriba{
     padding-top: 20px;
+}
+.espaciadoAbajo
+{
     padding-bottom: 10px;
 }
