@@ -19,3 +19,9 @@ body{
 {
     padding-bottom: 10px;
 }
+.productos{
+    display: flex;    
+}
+.caja{
+    background-color: brown;
+}

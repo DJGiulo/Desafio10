@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arco Astrología</title>
+    <link rel="stylesheet" href="../main.js">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <nav class="bg-gray-800">
@@ -62,41 +63,40 @@
         <div class="sm:hidden" id="mobile-menu">
         <div class="space-y-1 px-2 pb-3 pt-2">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-            <a href="#" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page">Blog</a>
-            <a href="./html/venta.html" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
+            <a href="../index.html" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page">Blog</a>
+            <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
             <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.youtube.com%2F%40ArcoTarot_222%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAaYkPkoHsb-bN_MpDJSD8FefibCzuWqs9fRk_rMy4TVEIoHa1MZ6vHh9eKs_aem_EIVsIMgIUxJfvOGGrUj5qQ&e=AT0udcbrRBvxaTp-0oF3EsJKooiMGCy3E_jv3gS6hxTUaTY7jCUxaxQx7DWVZeVI_oiu8YPgaF9IX3Vf6WTnUNQTWIkrSwHWIVz1ONFMY3wGi3x4xw1slh8" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Videos</a>
         </div>
         </div>
     </nav>
 
     <header>
-        <h1 class="principal">
+        <h1 class="principal espaciadoAbajo">
             Diálogos entre estrellas
         </h1>
     </header>
 
-    <section class="espaciadoArriba espaciadoAbajo">
-        <h2 class="linea">
-            Vida diaria
-        </h2>
-        <p>Escribo taroteo y proximamente desarrollando quiromancia y matrices</p>
-    </section>
-
-    <img src="./img/IMG-20241206-WA0021.jpg" alt="carta_tarot" width="250px" class="espaciadoAbajo">
-
-    <footer>
-        <div>
-            <h4 class="font-bold text-lg">Enlaces útiles</h4>
-            <ul class="mt-2 space-y-2">
-                <li><span>Sigan a <a href="https://www.instagram.com/arco_tarot?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="hover:underline ig">@arco_tarot</a></span></li>
-                <li><a href="#" class="hover:underline">Política de Privacidad</a></li>
-                <li><a href="#" class="hover:underline">Términos y Condiciones</a></li>
-            </ul>
+    <!--Venta de tiradas-->
+    <section>
+    <div class="productos">
+        <div class="caja">
+            <p>Tirada General</p>
+            <button type="button" class="btn">Base class</button>
         </div>
-        <div> </div>
-    </footer>
-    <script>
+        <div>
+            <p>Tirada 1 Carta Si o No</p>
 
-    </script>
+        </div>
+        <div>
+            <p>Tirada 3 Cartas Si o No</p>
+        </div>
+        <div>
+            <p>Tirada Amor</p>
+        </div>
+        <div>
+            <p>Tirada Arcano Mayor</p>
+        </div>
+    </div>
+    </section>
 </body>
 </html>
