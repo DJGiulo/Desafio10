@@ -24,4 +24,13 @@ body{
 }
 .caja{
     background-color: brown;
+    margin: 10px;
+    padding: 5px;
+    color: cornsilk;
+    border: 5px;
+    border-color:coral;
+    border-radius: 7%;
+}
+.precio{
+    color:ghostwhite;
 }
