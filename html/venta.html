@@ -6,6 +6,7 @@
     <title>Arco Astrología</title>
     <link rel="stylesheet" href="../main.js">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap" rel="stylesheet">
@@ -66,7 +67,7 @@
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <a href="../index.html" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page">Blog</a>
             <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Projects</a>
-            <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.youtube.com%2F%40ArcoTarot_222%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAaYkPkoHsb-bN_MpDJSD8FefibCzuWqs9fRk_rMy4TVEIoHa1MZ6vHh9eKs_aem_EIVsIMgIUxJfvOGGrUj5qQ&e=AT0udcbrRBvxaTp-0oF3EsJKooiMGCy3E_jv3gS6hxTUaTY7jCUxaxQx7DWVZeVI_oiu8YPgaF9IX3Vf6WTnUNQTWIkrSwHWIVz1ONFMY3wGi3x4xw1slh8" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Videos</a>
+            <a href="https://www.youtube.com/@ArcoTarot_222" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Videos</a>
         </div>
         </div>
     </nav>
@@ -82,25 +83,43 @@
     <div class="productos">
         <div class="caja">
             <p>Tirada General</p>
-            <button type="button" class="btn precio">$6000</button>
+            <button onclick="mostrarAlerta()" type="button" class="btn precio">$6000</button>
         </div>
         <div class="caja">
             <p>Tirada 1 Carta Si o No</p>
-            <button type="button" class="btn precio">$800</button>
+            <button onclick="mostrarAlerta()" type="button" class="btn precio">$800</button>
         </div>
         <div class="caja">
             <p>Tirada 3 Cartas Si o No</p>
-            <button type="button" class="btn precio">$1999</button>
+            <button onclick="mostrarAlerta()" type="button" class="btn precio">$1999</button>
         </div>
         <div class="caja">
             <p>Tirada Amor</p>
-            <button type="button" class="btn precio">$2600</button>
+            <button onclick="mostrarAlerta()" type="button" class="btn precio">$2600</button>
         </div>
         <div class="caja">
             <p>Tirada Arcano Mayor</p>
-            <button type="button" class="btn precio">$4000</button>
+            <button onclick="mostrarAlerta()" type="button" class="btn precio">$4000</button>
         </div>
     </div>
     </section>
+
+    <footer>
+        <div>
+            <h4 class="font-bold text-lg">Enlaces útiles</h4>
+            <ul class="mt-2 space-y-2">
+                <li><span>Sigan a <a href="https://www.instagram.com/almaestellar_tarot?igsh=OTU0ejkweDVybWt4">@almaestellar_tarot</a></span></li>
+                <li><a href="#" class="hover:underline">Política de Privacidad</a></li>
+                <li><a href="#" class="hover:underline">Términos y Condiciones</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        function mostrarAlerta(){
+            Swal.fire("Para realizar la compra comunicarse por medio del instagram @almaestellar_tarot");
+        }
+        
+    </script>
 </body>
 </html>
